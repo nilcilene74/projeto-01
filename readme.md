@@ -72,8 +72,9 @@ Formalmente, podemos definir requisito como:
 
 ### 1 Modelagem do Sistema (Diagrama de Caso de Uso)
 ## Diagrama de caso de uso
-<img width="980" height="682" alt="image" src="https://github.com/user-attachments/assets/7800e82f-35ed-40f6-ac94-b268efae551a" />
 
+
+<img width="783" height="526" alt="Diagrama de Caso de Uso(png) drawio" src="https://github.com/user-attachments/assets/98fd2b3d-17bd-4415-9441-b686a4838ee1" />
 
 
 
