@@ -47,6 +47,25 @@ Formalmente, podemos definir requisito como:
 |RNF10                    | Bancos de Dados           | Armazena as  informações do fluxo 
 
 ### 1 Modelagem do Sistema (Diagrama de Caso de Uso)
+## Diagrama de caso de uso
+<img width="763" height="442" alt="image" src="https://github.com/user-attachments/assets/dd625d98-bf4c-4953-945e-9704c9ff01c8" />
+
+- **UC1 - Atendimento Automatizado** :
+         Mostra como funciona o atendimento principal do sistema, no qual o chatbot realiza o atendimento automático aos alunos. Por meio da integração com o Telegram, o usuário envia perguntas relacionadas a informações acadêmicas, como matrícula, calendário acadêmico, cursos e disciplinas.
+As mensagens são processadas com o apoio dos fluxos configurados no n8n, permitindo respostas rápidas e sem a necessidade de atendimento humano.
+         
+- **UC2 - Testar Perguntas e Respostas** :
+        Este caso de uso representa a funcionalidade usada pelo administrador do sistema, permitindo o teste e a validação das perguntas e respostas do chatbot. Por meio dessa funcionalidade, é possível verificar se as respostas retornadas estão corretas, atualizadas e adequadas ao contexto acadêmico, garantindo a confiabilidade das informações disponibilizadas aos usuários finais.
+        
+- **UC3 - Consultar Base de Conhecimento** :
+        Representa o processo no qual o sistema acessa a base de conhecimento acadêmica armazenada no banco de dados PostgreSQL. Essa consulta é realizada sempre que uma pergunta é recebida, permitindo ao chatbot recuperar informações atualizadas e estruturadas, que servirão de base para a geração das respostas mais adequadas aos usuários.
+        
+- **UC4 - Retornar Resposta** :
+        Mostra a funcionalidade responsável por enviar ao usuário a resposta processada pelo sistema. Após a consulta à base de conhecimento e o tratamento da informação por meio dos fluxos do n8n, o chatbot retorna a resposta ao usuário pelo Telegram, garantindo uma comunicação clara e direta.
+
+- **UC5 - Registrar Interações** :
+        Este caso de uso descreve o processo de registro das interações realizadas entre os usuários e o chatbot acadêmico. O sistema armazena no banco de dados informações como perguntas enviadas, respostas fornecidas, possibilitando o acompanhamento do uso do sistema, análise de desempenho e futuras melhorias.
+
 
 
 <img src="./imagens/diagrama.png"/>
