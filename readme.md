@@ -1,7 +1,7 @@
 #PROJETO 01
 
 
-UNIVERSIDADE FEDERAL DO PARÁ (UFPA)
+
 
                                             FACULDADE DE SISTEMAS DE INFORMAÇÃO (FASI)
                                                  
