@@ -3,7 +3,7 @@
  ## DOCUMENTAÇÃO DE REQUISITOS
  
 ##  Introdução
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Esta documentação apresenta o desenvovimento do Chatbot FAQ Acadêmico, com o objetivo de facilitar o acesso dos alunos da UFPA/Campus Cametá a informações acadêmicas de forma rápida e automatizada. O sistema busca reduzir a dependência de atendimentos manuais, oferecendo respostas automáticas para dúvidas frequentes relacionadas a matrícula, calendário acadêmico, secretaria, disciplinas, cursos, estágios, biblioteca, TCC e uso de sistemas institucionais, como o SIGAA.  
+Esta documentação apresenta o desenvovimento do Chatbot FAQ Acadêmico, com o objetivo de facilitar o acesso dos alunos da UFPA/Campus Cametá a informações acadêmicas de forma rápida e automatizada. O sistema busca reduzir a dependência de atendimentos manuais, oferecendo respostas automáticas para dúvidas frequentes relacionadas a matrícula, calendário acadêmico, secretaria, disciplinas, cursos, estágios, biblioteca, TCC e uso de sistemas institucionais, como o SIGAA.  
 O chatbot funciona por meio da integração com o Telegram, permitindo que os usuários realizem consultas de maneira simples e acessível. Para o processamento das mensagens e organização dos fluxos de  atendimento, é utilizada a ferramenta n8n, enquanto o banco de dados PostgreSQL é responsável pelo armazenamento da base de conhecimento e pelo registro das interações realizadas.
 Ao longo deste documento são descritos os requisitos funcionais e não funcionais do sistema, bem como a modelagem por meio do diagrama de caso de uso e o diagrama de entidade-relacionamento, possibilitando uma visão geral do funcionamento do chatbot, das funcionalidades disponíveis e da forma como usuários e administradores interagem com o sistema.
 
@@ -48,7 +48,10 @@ Formalmente, podemos definir requisito como:
 
 ### 1 Modelagem do Sistema (Diagrama de Caso de Uso)
 ## Diagrama de caso de uso
-<img width="763" height="442" alt="image" src="https://github.com/user-attachments/assets/dd625d98-bf4c-4953-945e-9704c9ff01c8" />
+<img width="980" height="682" alt="image" src="https://github.com/user-attachments/assets/7800e82f-35ed-40f6-ac94-b268efae551a" />
+
+
+
 
 - **UC1 - Atendimento Automatizado** :
          Mostra como funciona o atendimento principal do sistema, no qual o chatbot realiza o atendimento automático aos alunos. Por meio da integração com o Telegram, o usuário envia perguntas relacionadas a informações acadêmicas, como matrícula, calendário acadêmico, cursos e disciplinas.
