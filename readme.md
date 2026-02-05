@@ -1,5 +1,29 @@
 #PROJETO 01
 
+
+UNIVERSIDADE FEDERAL DO PARÁ (UFPA)
+
+                                            FACULDADE DE SISTEMAS DE INFORMAÇÃO (FASI)
+                                                 
+                                                DISCIPLINA: PROJETO INTREGADO I
+                       
+                                                    DOCENTE: ELTON SARMANHO
+
+
+
+
+                                                  
+                                                    AEDELLEN ALMEIDA CARVALHO
+                                                   HERMIANE RODRIGUES DE SOUSA
+                                                   NILCILENE CARVALHO RODRIGUES
+
+                                                                   
+
+
+
+                                          TEMA: PROJETO CHATBOT FAQ ACADÊMICO COM INTEGRAÇÃO N8N
+
+
  ## DOCUMENTAÇÃO DE REQUISITOS
  
 ##  Introdução
