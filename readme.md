@@ -3,7 +3,7 @@
  ## DOCUMENTAÇÃO DE REQUISITOS
  
 ##  Introdução
-Esta documentação apresenta o desenvovimento do Chatbot FAQ Acadêmico, com o objetivo de facilitar o acesso dos alunos da UFPA/Campus Cametá a informações acadêmicas de forma rápida e automatizada. O sistema busca reduzir a dependência de atendimentos manuais, oferecendo respostas automáticas para dúvidas frequentes relacionadas a matrícula, calendário acadêmico, secretaria, disciplinas, cursos, estágios, biblioteca, TCC e uso de sistemas institucionais, como o SIGAA.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Esta documentação apresenta o desenvovimento do Chatbot FAQ Acadêmico, com o objetivo de facilitar o acesso dos alunos da UFPA/Campus Cametá a informações acadêmicas de forma rápida e automatizada. O sistema busca reduzir a dependência de atendimentos manuais, oferecendo respostas automáticas para dúvidas frequentes relacionadas a matrícula, calendário acadêmico, secretaria, disciplinas, cursos, estágios, biblioteca, TCC e uso de sistemas institucionais, como o SIGAA.  
 O chatbot funciona por meio da integração com o Telegram, permitindo que os usuários realizem consultas de maneira simples e acessível. Para o processamento das mensagens e organização dos fluxos de  atendimento, é utilizada a ferramenta n8n, enquanto o banco de dados PostgreSQL é responsável pelo armazenamento da base de conhecimento e pelo registro das interações realizadas.
 Ao longo deste documento são descritos os requisitos funcionais e não funcionais do sistema, bem como a modelagem por meio do diagrama de caso de uso e o diagrama de entidade-relacionamento, possibilitando uma visão geral do funcionamento do chatbot, das funcionalidades disponíveis e da forma como usuários e administradores interagem com o sistema.
 
@@ -17,7 +17,7 @@ Formalmente, podemos definir requisito como:
 
 ## Requisitos Funcionais
   Os requisitos funcionais referem-se aos requisitos que estão relacionados com a maneira com que o sistema deve operar, onde se especificam as entradas e saídas do sistema e o relacionamento comportamental entre   elas, assim como a interação com o usuário.
-  Desta forma, os requisitos esncontrados para o primeiro ciclo do projeto exemplificado neste template são:
+  Desta forma, os requisitos encontrados para o primeiro ciclo do projeto exemplificado neste template são:
     
 |Requisitos        |             Nome               |       Descrição                                                                                        |   
 |------------------|--------------------------------|--------------------------------------------------------------------------------------------------------| 
@@ -37,7 +37,7 @@ Formalmente, podemos definir requisito como:
 |-------------------------|---------------------------|-------------------------------------------------------------------------------|
 | RNF01                   |Desempenho                 | O chatbot deve responder ás mensagens dos usuários em até 5 segundos, em condições normais de operação.      |
 | RNF02                   |Segurança                  | O sistema deve garantir a segurança das informações trocadas.                              |
-| RFN03                   |Usabilidade                |                                                                                                              |
+| RFN03                   |Usabilidade                | O chatbot deve apresentar uma interface simples e fácil de usar, permitindo que qualquer aluno consiga utilizá-lo sem dificuldades|
 | RNF04                   |Compatibilidade            | O sistema deve funcionar corretamente em diferentes dispositivos, como computadores, tablets e smartphones.                            |
 | RNF05                   |Manutenibilidade           | O sistema deve permitir manutenção e ajuste nos fluxos de automação do n8n de forma simples e organizada.      |
 | RNF06                   |Privacidade de dados       | O chatbot deve tratar os dados dos usuários de acordo com a LGPD(Lei Geral de Proteção de Dados), garantindo confidencialidade e uso adequado das informações.              |
