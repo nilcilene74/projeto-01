@@ -91,5 +91,6 @@ As mensagens são processadas com o apoio dos fluxos configurados no n8n, permit
 - **UC5 - Registrar Interações** :
         Este caso de uso descreve o processo de registro das interações realizadas entre os usuários e o chatbot acadêmico. O sistema armazena no banco de dados informações como perguntas enviadas, respostas fornecidas, possibilitando o acompanhamento do uso do sistema, análise de desempenho e futuras melhorias.
 
+<img width="819" height="359" alt="entidade_relacionamento projeto intregado 1" src="https://github.com/user-attachments/assets/78b67561-72fd-4ac9-893c-02c28dfe7ed0" />
 
-<img src="./imagens/diagrama.png"/>
+
