@@ -73,10 +73,7 @@ Formalmente, podemos definir requisito como:
 ### 1 Modelagem do Sistema (Diagrama de Caso de Uso)
 ## Diagrama de caso de uso
 
-
 <img width="783" height="526" alt="Diagrama de Caso de Uso(png) drawio" src="https://github.com/user-attachments/assets/98fd2b3d-17bd-4415-9441-b686a4838ee1" />
-
-
 
 - **UC1 - Atendimento Automatizado** :
          Mostra como funciona o atendimento principal do sistema, no qual o chatbot realiza o atendimento automático aos alunos. Por meio da integração com o Telegram, o usuário envia perguntas relacionadas a informações acadêmicas, como matrícula, calendário acadêmico, cursos e disciplinas.
@@ -93,7 +90,6 @@ As mensagens são processadas com o apoio dos fluxos configurados no n8n, permit
 
 - **UC5 - Registrar Interações** :
         Este caso de uso descreve o processo de registro das interações realizadas entre os usuários e o chatbot acadêmico. O sistema armazena no banco de dados informações como perguntas enviadas, respostas fornecidas, possibilitando o acompanhamento do uso do sistema, análise de desempenho e futuras melhorias.
-
 
 
 <img src="./imagens/diagrama.png"/>
