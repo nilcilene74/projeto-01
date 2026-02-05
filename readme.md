@@ -93,6 +93,10 @@ As mensagens são processadas com o apoio dos fluxos configurados no n8n, permit
   
 ### 2 Diagrama de Entidade-Relacionamento
 
+Um diagrama de entidade-relacionamento é uma ferramenta gráfica utilizada na área de sistemas de informação para modelar a estrutura de um banco de dados. Seu principal objetivo é representar, de forma clara e organizada, as entidades envolvidas em um sistema, seus atributos e os relacionamentos existentes entre elas.
+Por meio do DER, é possível compreender como os dados se conectam e se relacionam, facilitando a análise, o projeto e a implementação de banco de dados. Essa modelagem contribui para a redução de erros, melhora a comunicação entre os envolvidos no desenvolvimento do sistema e serve como base para a criação do modelo lógico e físico do bando de dados.
+A imagem abaixo representa o diagrama de entidade-relacionamento do banco de chatbot: 
+
 <img width="819" height="359" alt="entidade_relacionamento projeto intregado 1" src="https://github.com/user-attachments/assets/78b67561-72fd-4ac9-893c-02c28dfe7ed0" />
 
 
