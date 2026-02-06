@@ -67,8 +67,8 @@ Formalmente, podemos definir requisito como:
 | RNF06                   |Privacidade de dados       | O chatbot deve tratar os dados dos usuários de acordo com a LGPD(Lei Geral de Proteção de Dados), garantindo confidencialidade e uso adequado das informações.              |
 |RNF07                    |Disponibilidade            | O sistema deve estar dsponível para uso 24 horas por dia, 7 dias por semana, exceto em períodos de manutenção programada.    |
 |RNF08                    |Escalabilidade             | O sistema deve suportar multiplos usuários simultânios sem perda significativa de desempenho.  |
-|RNF09                    | Integração com Telegram   | O sistema deve integrar-se à API do Telegram para envio e recebimento de mensagens do chatbot acadêmico. |
-|RNF10                    | Bancos de Dados           | Armazena as  informações do fluxo 
+|RNF09                    |Integração com Telegram    | O sistema deve integrar-se à API do Telegram para envio e recebimento de mensagens do chatbot acadêmico. |
+|RNF10                    |Bancos de Dados            | Armazena as  informações do fluxo.
 
 ### 1 Modelagem do Sistema (Diagrama de Caso de Uso)
 ## Diagrama de caso de uso
