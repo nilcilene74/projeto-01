@@ -59,7 +59,7 @@ Formalmente, podemos definir requisito como:
   
 |Requsitos                |        Nome               |      Descrição                                                                |
 |-------------------------|---------------------------|-------------------------------------------------------------------------------|
-| RNF01                   |Desempenho                 | O chatbot deve responder ás mensagens dos usuários de 5 a 10 segundos, em condições normais de operação.      |
+| RNF01                   |Desempenho                 | O chatbot deve responder ás mensagens dos usuários de 5 a 15 segundos, em condições normais de operação.      |
 | RNF02                   |Segurança                  | O sistema deve garantir a segurança das informações trocadas.                              |
 | RFN03                   |Usabilidade                | O chatbot deve apresentar uma interface simples e fácil de usar, permitindo que qualquer aluno consiga utilizá-lo sem dificuldades|
 | RNF04                   |Compatibilidade            | O sistema deve funcionar corretamente em diferentes dispositivos, como computadores, tablets e smartphones.                            |
